@@ -24,8 +24,9 @@ def create_database(dbname, user, password, host, port):
 #this connects the program to the database
 def connectToDataBase():
     dbname = "student".lower()
-    user = "postgres"
-    password = "232189499"
+    #the following should be your password and username to the database.
+    user = "your username"
+    password = "your password"
     host = "localhost"
     port = "5432"
 
